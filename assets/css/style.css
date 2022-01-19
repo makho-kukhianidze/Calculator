@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+   }   
+   body{
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #d1d7ef;
+   }   
+   .calculator{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 95%;
+            flex: 0 0 95%;
+   }
+   .screen{
+       width: 100%;
+       font-size: 80px;
+       font-weight: 600;
+       padding: 14px;
+       background: rgb(155 116 231);
+       color: white;
+       text-align: center;
+       border: 1px solid black;
+   }   
+   .buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    cursor: pointer;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+   }   
+   button{
+    -webkit-box-flex:0;
+        -ms-flex:0 0 25%;
+            flex:0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 0.7s ease;
+   }
+   button:hover{
+    background: blue;
+   }
+   .btn-yellow{
+    background: rgb(245,146,62);
+    color: white;
+   }   
+   .btn-background{
+    background: rgb(64, 86, 184);
+   }
+   .btn-background:hover{
+       color: white;
+   } 
+   .btn,.btn-equal,.btn-clear{
+    font-size: 60px;
+   }   
+   .btn-equal{
+    background: rgb(24, 117, 24);
+   }   
+   .btn-clear{
+    background: #ad4848;
+   }
